@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const axios = require('axios');
-const accessToken = "10159498998974594";
+const accessToken = "1";
 const cors = require('cors');
 // add to gitignore
 const superHeroApiUrl = "https://www.superheroapi.com/api";
