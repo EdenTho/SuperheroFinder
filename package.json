@@ -1,0 +1,20 @@
+{
+  "name": "superherofinder",
+  "version": "1.0.0",
+  "description": "Look up superheroes using this handy resource!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Eden Ivri",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

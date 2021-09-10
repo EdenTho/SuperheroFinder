@@ -1,0 +1,31 @@
+.container {
+    // width: 100%;
+    min-height: 550px;
+    display: grid;
+    grid-template-rows: 1fr 7fr 4fr;
+    grid-row-gap: 0.5em;
+    grid-auto-rows: minmax(200px, auto);
+}
+
+.header {
+    background: #FFF;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.title {
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    display: grid;
+    background: #5cc7b5;
+}
+
+.results-footer {
+    display: grid;
+    background: #777;
+}

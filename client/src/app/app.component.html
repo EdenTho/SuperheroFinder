@@ -1,0 +1,26 @@
+<router-outlet></router-outlet>
+<div class="container">
+    <div class="header">
+        <div class="title">Superhero Finder</div>
+    </div>
+    <div class="search">
+        <div class="search-container">
+            <input type="text" placeholder="Search for a superhero!">
+            <div *ngIf="this.mostPopular" class="dropdown">
+                <ul *ngFor="let hero of this.mostPopular">
+                    <li>
+                        <a>{{hero.superName}} - {{hero.fullName}}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="results-footer">
+        <div class="results-container">
+            <div class="hero-card">
+                Hello
+            </div>
+        </div>
+    </div>
+</div>
